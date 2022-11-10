@@ -8,10 +8,11 @@ import ShowTapas from "./Components/ShowTapas";
 import Bar from "./Components/Bar";
 import Commentaire from "./Components/Commentaire";
 import Footer from "./Components/Footer";
+import HomeMenu from "./Components/HomeMenu";
 
 function App() {
   return (
-    <div className="h-screen bg-gray-800">
+    <div className="h-full">
       <Navbar />
       <Home />
       <Reservation />
@@ -22,6 +23,8 @@ function App() {
       <Bar />
       <Commentaire />
       <Footer />
+      {/* <Navbar />
+      <HomeMenu /> */}
     </div>
   );
 }

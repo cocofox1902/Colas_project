@@ -3,7 +3,7 @@ import '../index.css';
 
 const ShowBurger = () => {
     return (
-        <div className='bg-zinc-900'>
+        <div className='bg-dark'>
             <div>
                 <img src="TYPO_SAIGNANT.png" alt="saignant" className='w-64 absolute left-10 mt-36' />
                 <img src="PHOTO-BURGER.jpg" alt="burger1" className='w-2/3' />
