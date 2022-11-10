@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Bar = () => {
     function changeBackground() {
@@ -14,9 +15,9 @@ const Bar = () => {
             <div className='w-1/2 md:ml-20 ml-5 flex  lg:w-1/2 w-full'>
                 <div>
                     <div id='main'><img src="MAIN.png" alt="main" id='main2' className='w-32 ml-[4vw] mb-10 transform duration-300 rotate-[20deg]' /></div>
-                    <button onMouseEnter={changeBackground}
-                        onMouseLeave={changeBackground2} className='px-[2vw] py-3 md:text-2xl text-xl rounded-full bg-dark text-white transition duration-300'>JE RESERVE DE SUITE</button>
-                    <img src="TEXTE_POUR_TOUTES_SOIFS.png" alt="soif2" className='w-[30vw]'/>
+                    <Link to="/contact" onMouseEnter={changeBackground}
+                        onMouseLeave={changeBackground2} className='px-[2vw] py-3 md:text-2xl text-xl rounded-full bg-dark text-white transition duration-300'>JE RESERVE DE SUITE</Link>
+                    <img src="TEXTE_POUR_TOUTES_SOIFS.png" alt="soif2" className='md:w-[30vw] w-[40vw] pt-36'/>
                 </div>
                 <div>
                     <p className='w-50 font-semibold md:text-3xl text-xl text-right  mr-5'>

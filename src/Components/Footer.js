@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
@@ -12,9 +13,9 @@ const Footer = () => {
                 <p className='pb-10'>Tel: 09 83 23 39 14</p>
                 <div className='flex pb-10'>
                     <p>On reste en contact</p>
-                    <button>
+                    <Link to="/contact">
                         <img src="PICTO_AVION_PAPIER.png" alt="avion" className='w-12 pl-5' />
-                    </button>
+                    </Link>
                 </div>
                 <p className='md:text-lg text-xs font-thin flex'>
                     Copyright © L’IMPONDERABLE 2022 |
@@ -31,7 +32,7 @@ const Footer = () => {
                     Découvrez notre galerie photos
                 </p>
                 <div className='flex justify-center py-10'>
-                    <button className='px-16 text-lg border-2 border-blue rounded-full bg-dark text-white hover:bg-blue transition duration-500'>RESERVER</button>
+                    <Link to="/contact" className='px-16 text-lg border-2 border-blue rounded-full bg-dark text-white hover:bg-blue transition duration-500'>RESERVER</Link>
                 </div>
             </div>
         </div>

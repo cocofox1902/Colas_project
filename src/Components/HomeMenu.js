@@ -27,7 +27,7 @@ const HomeMenu = () => {
                 </div>
                 <div className='pt-44 justify-center w-full grid mr-14'>
                     <img src="LOGO_L'IMPOND.png" alt="L'impond'erable" className='justify-self-center w-4/5' />
-                    <p className='flex justify-center pt-10 text-5xl font-bold'>NOS CARTES</p>
+                    <p className='flex justify-center pt-10 text-5xl font-bold text-wheat'>NOS CARTES</p>
                     <div className='pt-16 pb-14'>
                         <div className='grid lg:grid-cols-3 grid-cols-1 gap-5 text-wheat'>
                             <div className='grid'>

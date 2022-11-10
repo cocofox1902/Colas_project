@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Reservation = () => {
     return (
@@ -11,8 +12,8 @@ const Reservation = () => {
                 <div className='flex justify-center'>
                     <img src="COUTEAU.png" alt="couteau" className='w-3/4' />
                 </div>
-                <button className='mx-7 mb-5 px-10 text-3xl border-2 border-blue rounded-full bg-blue hover:bg-dark text-white transition duration-300'>RESERVER</button>
-                <p className='text-blue text-3xl font-semibold'>Tel: 09 83 23 39 14</p>
+                <Link to="/contact" className='mx-7 mb-5 px-10 text-3xl border-2 border-blue rounded-full bg-blue hover:bg-dark text-white transition duration-300'>RESERVER</Link>
+                <p className='text-blue text-3xl font-semibold mt-5'>Tel: 09 83 23 39 14</p>
             </div>
         </div>
     );

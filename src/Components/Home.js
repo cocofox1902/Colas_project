@@ -1,6 +1,7 @@
 import React from 'react';
 import { faCanadianMapleLeaf, faInstagram, faYoutube } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
     return (
@@ -9,19 +10,19 @@ const Home = () => {
                 <div className='h-5/6 self-center mt-20 lg:flex hidden'>
                     <ul className='ml-3'>
                         <li className='flex justify-center py-2'>
-                            <button>
+                            <Link to="/blog">
                                 <FontAwesomeIcon icon={faCanadianMapleLeaf} className="text-3xl mr-5" />
-                            </button>
+                            </Link>
                         </li>
                         <li className='flex justify-center py-2'>
-                            <button>
+                            <a href='https://www.instagram.com/'>
                                 <FontAwesomeIcon icon={faInstagram} className="text-3xl mr-5" />
-                            </button>
+                            </a>
                         </li>
                         <li className='flex justify-center py-2'>
-                            <button>
+                            <a href='https://www.youtube.com/'>
                                 <FontAwesomeIcon icon={faYoutube} className="text-3xl mr-5" />
-                            </button>
+                            </a>
                         </li>
                     </ul>
                 </div>
