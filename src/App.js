@@ -23,8 +23,8 @@ function App() {
       <Bar />
       <Commentaire />
       <Footer />
-      {/* <Navbar />
-      <HomeMenu /> */}
+      <Navbar />
+      <HomeMenu />
     </div>
   );
 }
