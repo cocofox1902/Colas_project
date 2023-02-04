@@ -15,7 +15,7 @@ const Contact = () => {
             </div>
             <div className='flex text-5xl justify-center pb-24'>
                 <FontAwesomeIcon icon={faPhone}  className='mr-10 flex self-center'/>
-                <p>Tel: 09 83 23 39 14</p>
+                <p>T: 09 83 23 39 14</p>
             </div>
         </div>
     );

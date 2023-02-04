@@ -7,7 +7,7 @@ const Home = () => {
     return (
         <div className='text-white h-5/6 pb-40 bg-dark'>
             <div className='flex'>
-                <div className='h-5/6 self-center mt-20 lg:flex hidden'>
+                <div className='h-5/6 self-center lg:flex hidden'>
                     <ul className='ml-3'>
                         <li className='flex justify-center py-2'>
                             <Link to="/blog">

@@ -10,7 +10,7 @@ const Footer = () => {
                     <p className='md:w-1/2 w-full mb-10'>OUVERT TOUS LES JOURS ! <br /> De 9h00 à 2H00</p>
                     <p className='md:w-1/2 w-full mb-10'>320 rue des Pyrénées <br /> 75020 Paris <br /> Métro Jourdain</p>
                 </div>
-                <p className='pb-10'>Tel: 09 83 23 39 14</p>
+                <p className='pb-10'>T: 09 83 23 39 14</p>
                 <div className='flex pb-10'>
                     <p>On reste en contact</p>
                     <Link to="/contact">
