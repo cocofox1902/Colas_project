@@ -59,9 +59,9 @@ const HomeMenu = () => {
                   Vin
                 </button>
               </Link>
-              <Link to="/cartes/viandes" className="grid">
+              <Link to="/cartes/Tartines" className="grid">
                 <button className="text-5xl font-bold border-2 p-5 m-2 hover:bg-wheat hover:text-dark">
-                  Viandes
+                  Tartines
                 </button>
               </Link>
               <Link to="/cartes/salade" className="grid">

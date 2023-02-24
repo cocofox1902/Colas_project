@@ -17,7 +17,6 @@ const ShowBurger = () => {
         to="/cartes"
       >
         <img
-          class="scroll-box"
           data-scroll-speed="3"
           src="PICTO_MENU_BEIGE.png"
           alt="menu"
@@ -25,21 +24,18 @@ const ShowBurger = () => {
         />
       </Link>
       <img
-        class="scroll-box"
         data-scroll-speed="7"
         src="TEXTE_ACCOMPAGNÉ_DE_FRITES.png"
         alt="frites"
         className="absolute mt-[15vw] w-[40vw] ml-[58vw]"
       />
       <img
-        class="scroll-box"
         data-scroll-speed="4"
         src="TEXTE_MMMMM.png"
         alt="mmm"
         className="absolute mt-[35vw] ml-[20vw] w-[25vw]"
       />
       <img
-        class="scroll-box"
         data-scroll-speed="5"
         src="PHOTO-BURGER2.jpg"
         alt="burger2"

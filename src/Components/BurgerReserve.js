@@ -13,7 +13,7 @@ const BurgerReserve = () => {
     return (
         <div className='bg-blue text-center py-10'>
             <div>
-                <Link to="/cartes">
+                <Link to="/cartes/burgers">
                     <img src="DEPART_CARTE_MENU.png" alt="DEPART_CARTE_MENU" id='DEPART_CARTE_MENU' className='w-[15vw] absolute left-3/4 mt-[10vw] rotate-12' />
                 </Link>
             </div>

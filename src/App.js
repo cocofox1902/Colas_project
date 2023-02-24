@@ -7,13 +7,15 @@ import Navbar from './Components/Navbar';
 import Burger from './Burger';
 import Tapas from './Tapas';
 import Vin from './Vin';
-import Viandes from './Viandes';
+import Tartines from './Tartines';
 import Salade from './Salade';
 import Footer from "./Components/Footer";
+import ScrollToTopOnMount from './ScrollToTopOnMount';
 
 function App() {
   return (
     <div className="h-full">
+      <ScrollToTopOnMount />
       <BrowserRouter>
         <Navbar />
         <Routes>
@@ -24,7 +26,7 @@ function App() {
           <Route path="/cartes/burgers" element={<Burger />} />
           <Route path="/cartes/tapas" element={<Tapas />} />
           <Route path="/cartes/vin" element={<Vin />} />
-          <Route path="/cartes/viandes" element={<Viandes />} />
+          <Route path="/cartes/Tartines" element={<Tartines />} />
           <Route path="/cartes/salade" element={<Salade />} />
         </Routes>
         <Footer />

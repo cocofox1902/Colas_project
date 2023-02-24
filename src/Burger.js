@@ -5,7 +5,7 @@ const Cartes = () => {
   return (
     <div className="bg-dark text-whitepb-32">
       <div className="flex justify-center bg-blue ">
-        <img src="../picto_burger.png" class="md:hidden w-56" alt="" />
+        <img src="../picto_burger.png" className="md:hidden w-56" alt="" />
       </div>
       <div className="flex justify-center bg-blue ">
         <div className="text-dark grid justify-center place-items-center w-full">
@@ -21,21 +21,34 @@ const Cartes = () => {
             </p>
           </div>
           <div className="text-center">
-            <h2 className="font-bold text-3xl">Le Grand Mamie</h2>
-            <p className="font-semibold mb-10">
-              Boeuf, reblochon, lardons, oignons rissolés, sauce montagnarde
+            <h2 className="font-bold text-3xl">LA BIQUETTE</h2>
+            <p className="font-semibold mb-5">
+              Boeuf, chèvre frais, tomate, oignons, sauce moutarde au miel
             </p>
           </div>
           <div className="text-center">
-            <h2 className="font-bold text-3xl">La Biquette</h2>
-            <p className="font-semibold mb-10">
-              Boeuf, chèvre frais, oignons, sauce moutarde au miel
-            </p>
-          </div>
-          <div className="text-center">
-            <h2 className="font-bold text-3xl">La Poulette</h2>
-            <p className="font-semibold mb-10">
+            <h2 className="font-bold text-3xl">LA POULETTE</h2>
+            <p className="font-semibold mb-5">
               Dinde panée, cheddar, tomate, roquette
+            </p>
+          </div>
+          <div className="text-center">
+            <h2 className="font-bold text-3xl">LE GRAND MAMIE</h2>
+            <p className="font-semibold mb-5">
+              Boeuf, reblochon, lardon, oignons rissolés, sauce montagnarde
+            </p>
+          </div>
+          <div className="text-center">
+            <h2 className="font-bold text-3xl">LE VEGIE</h2>
+            <p className="font-semibold mb-5">
+              Galettes de légumes, salade, tomate, oignons rouges
+            </p>
+          </div>
+          <div className="text-center">
+            <h2 className="font-bold text-3xl">LE BURGER DE L'IMPOND</h2>
+            <p className="font-semibold mb-5">
+              Galerte de pomme de terre, viande haché boeuf, confiture
+              d’oignons, cheddar
             </p>
           </div>
           <div className="absolute w-64 right-[10vw] top-[360px] lg:block hidden">
@@ -59,9 +72,9 @@ const Cartes = () => {
             Vin
           </button>
         </Link>
-        <Link to="/cartes/viandes" className="grid">
+        <Link to="/cartes/Tartines" className="grid">
           <button className="text-5xl font-bold border-2 p-5 m-2 hover:bg-wheat hover:text-dark">
-            Viandes
+            Tartines
           </button>
         </Link>
         <Link to="/cartes/salade" className="grid">

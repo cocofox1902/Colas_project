@@ -28,7 +28,7 @@ const Home = () => {
                 </div>
                 <div className='pt-44 justify-center w-full grid mr-14 lg:ml-0 ml-20'>
                     <img src="LOGO_L'IMPOND.png" alt="L'impond'erable" className='justify-self-center' />
-                    <p className='text-xl font-bold text-wheat justify-self-center'>BAR À 20 ÈME</p>
+                    <p className='text-xl font-bold text-wheat justify-self-center'>BAR À VIN IÈME</p>
                     <img src="TYPO_CAFÉ_BAR RESTO.png" alt="TYPO_CAFÉ_BAR RESTO" className='pt-20'/>
                 </div>
             </div>
