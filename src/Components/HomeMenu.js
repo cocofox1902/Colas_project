@@ -64,9 +64,9 @@ const HomeMenu = () => {
                   Tartines
                 </button>
               </Link>
-              <Link to="/cartes/salade" className="grid">
+              <Link to="/cartes/couscous" className="grid">
                 <button className="text-5xl font-bold border-2 p-5 m-2 hover:bg-wheat hover:text-dark">
-                  Salade
+                  Couscous
                 </button>
               </Link>
             </div>

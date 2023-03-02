@@ -9,6 +9,8 @@ import Bar from "./Components/Bar";
 import Commentaire from "./Components/Commentaire";
 
 const Homes = () => {
+  window.scrollTo(0, 0);
+
   return (
     <>
       <Home />

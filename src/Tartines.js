@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const Cartes = () => {
+  window.scrollTo(0, 0);
   return (
     <div className="bg-dark text-whitepb-32">
       <div className="flex justify-center bg-blue ">
@@ -71,9 +72,9 @@ const Cartes = () => {
             Tartines
           </button>
         </Link>
-        <Link to="/cartes/salade" className="grid">
+        <Link to="/cartes/couscous" className="grid">
           <button className="text-5xl font-bold border-2 p-5 m-2 hover:bg-wheat hover:text-dark">
-            Salade
+            Couscous
           </button>
         </Link>
       </div>

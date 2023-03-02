@@ -89,6 +89,7 @@ const Navbar = () => {
           <ul className="flex flex-col p-4 mt-4 rounded-lg md:flex-row md:space-x-8 md:mt-0 lg:text-sm">
             <li>
               <Link
+                onClick={handleClick}
                 to="/contact"
                 className="px-8 font-bold border-2 border-blue rounded-full bg-dark text-white hover:bg-blue transition duration-500"
               >
@@ -97,6 +98,7 @@ const Navbar = () => {
             </li>
             <li>
               <Link
+                onClick={handleClick}
                 to="/cartes"
                 className="font-display max-w-sm font-bold leading-tight"
               >
@@ -107,6 +109,7 @@ const Navbar = () => {
             </li>
             <li>
               <Link
+                onClick={handleClick}
                 to="/ambaince"
                 className="font-display max-w-sm font-bold leading-tight"
               >
@@ -117,6 +120,7 @@ const Navbar = () => {
             </li>
             <li>
               <Link
+                onClick={handleClick}
                 to="/blog"
                 className="fon-displaty max-w-sm font-bold leading-tight"
               >
@@ -127,6 +131,7 @@ const Navbar = () => {
             </li>
             <li>
               <Link
+                onClick={handleClick}
                 to="/contact"
                 className="font-display max-w-sm font-bold leading-tight"
               >

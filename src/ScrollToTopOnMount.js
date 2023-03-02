@@ -1,20 +1,9 @@
-import { useEffect } from 'react';
+// function ScrollToTop() {
+//   const currentPath = window;
+//   console.log(currentPath.location.href)
 
-function ScrollToTopOnMount() {
-  useEffect(() => {
-    window.addEventListener('click', handleScroll);
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, []);
+//   if currentPath.location.href change {
+//     window.scrollTo(0, 0);
+//   }
 
-  const handleScroll = () => {
-    if (window.scrollY > 0) {
-      window.scrollTo(0, 0);
-    }
-  };
-
-  return null;
-}
-
-export default ScrollToTopOnMount;
+// export default ScrollToTop;

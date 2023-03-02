@@ -3,6 +3,7 @@ import { faLocationDot, faClock, faPhone } from '@fortawesome/free-solid-svg-ico
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Contact = () => {
+    window.scrollTo(0, 0);
     return (
         <div className='bg-dark text-wheat'>
             <div className='flex text-5xl justify-center pt-32'>
