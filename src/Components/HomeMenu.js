@@ -1,7 +1,7 @@
 import React from "react";
 import {
   faCanadianMapleLeaf,
-  faInstagram,
+  faFacebook,
   faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -22,8 +22,8 @@ const HomeMenu = () => {
               </Link>
             </li>
             <li className="flex justify-center py-2">
-              <a href="https://www.instagram.com/">
-                <FontAwesomeIcon icon={faInstagram} className="text-3xl mr-5" />
+              <a href="https://www.facebook.com/">
+                <FontAwesomeIcon icon={faFacebook} className="text-3xl mr-5" />
               </a>
             </li>
             <li className="flex justify-center py-2">
@@ -33,7 +33,7 @@ const HomeMenu = () => {
             </li>
           </ul>
         </div>
-        <div className="pt-44 justify-center w-full grid mr-14">
+        <div className="pt-28 justify-center w-full grid mr-14">
           <img
             src="LOGO_L'IMPOND.png"
             alt="L'impond'erable"
@@ -56,7 +56,7 @@ const HomeMenu = () => {
               </Link>
               <Link to="/cartes/vin" className="grid">
                 <button className="text-5xl font-bold border-2 p-5 m-2 hover:bg-wheat hover:text-dark">
-                  Vin
+                  Vins
                 </button>
               </Link>
               <Link to="/cartes/Tartines" className="grid">

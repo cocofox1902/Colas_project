@@ -22,7 +22,7 @@ const BurgerReserve = () => {
             </div>
             <div><img src="MAIN.png" alt="main" id='main' className='absolute w-[10vw] ml-[24vw] transform duration-300 lg:block hidden' /></div>
             <button onMouseEnter={changeBackground}
-                onMouseLeave={changeBackground2} className='px-16 py-3 mb-20 text-2xl border-2 border-blue rounded-full bg-dark text-white transition duration-300'>
+                onMouseLeave={changeBackground2} className='px-16 py-3 mb-20 text-2xl font-bold border-2 border-blue rounded-full bg-dark text-white transition duration-300'>
                 <Link to="/contact">
                     JE RESERVE DE SUITE
                 </Link>

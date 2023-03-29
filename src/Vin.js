@@ -4,25 +4,25 @@ import { Link } from "react-router-dom";
 const Cartes = () => {
   window.scrollTo(0, 0);
   return (
-    <div className="bg-dark text-whitepb-32">
-      <div className="flex justify-center bg-blue ">
-        <img src="../picto_burger.png" className="md:hidden w-56" alt="" />
+    <div className="bg-dark text-white">
+      <div className="flex justify-center bg-bordeau ">
+        <img src="../PICTO-VIN.png" className="md:hidden w-56 pt-5" alt="" />
       </div>
-      <div className="flex justify-center bg-blue ">
+      <div className="flex justify-center bg-bordeau h-[500px]">
         <div className="text-dark grid justify-center place-items-center w-full">
           <img
-            src="../titrage_Nos_burger.png"
+            src="../VINS.png"
             alt="burger_titre"
-            className="md:w-2/3 w-3/4"
+            className="md:w-2/4 w-full"
           />
           <div className="flex pb-10">
             <table>
               <thead>
                 <tr>
-                  <th className="w-40"></th>
-                  <th className="w-20"></th>
-                  <th className="w-20"></th>
-                  <th className="w-20"></th>
+                  <th className="md:w-40 w-32"></th>
+                  <th className="md:w-20 w-14"></th>
+                  <th className="md:w-20 w-14"></th>
+                  <th className="md:w-20 w-14"></th>
                 </tr>
               </thead>
               <tbody>
@@ -62,7 +62,7 @@ const Cartes = () => {
                   <td>23.00€</td>
                 </tr>
                 <tr>
-                  <td className="font-bold pt-5">BLANCS</td>
+                  <td className="font-bold">BLANCS</td>
                 </tr>
                 <tr>
                   <td>Chardonnay</td>
@@ -86,13 +86,7 @@ const Cartes = () => {
                   <td>27.00€</td>
                 </tr>
                 <tr>
-                  <td className="font-bold pt-5">ROSÉS</td>
-                </tr>
-                <tr>
-                  <td>Voir notre sélection avec le serveur</td>
-                </tr>
-                <tr>
-                  <td className="font-bold pt-5">CHAMPAGNE</td>
+                  <td className="font-bold">CHAMPAGNE</td>
                 </tr>
                 <tr>
                   <td>Coupe</td>
@@ -111,8 +105,8 @@ const Cartes = () => {
               </tbody>
             </table>
           </div>
-          <div className="absolute w-64 right-[10vw] top-[360px] lg:block hidden">
-            <img src="../picto_burger.png" alt="burger" />
+          <div className="absolute w-64 right-[10vw] top-[260px] lg:block hidden">
+            <img src="../PICTO-VIN.png" alt="burger" />
           </div>
         </div>
       </div>
@@ -129,7 +123,7 @@ const Cartes = () => {
         </Link>
         <Link to="/cartes/vin" className="grid">
           <button className="text-5xl font-bold border-2 p-5 m-2 bg-wheat text-dark">
-            Vin
+            Vins
           </button>
         </Link>
         <Link to="/cartes/Tartines" className="grid">

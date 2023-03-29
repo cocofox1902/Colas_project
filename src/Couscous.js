@@ -4,18 +4,18 @@ import { Link } from "react-router-dom";
 const Cartes = () => {
   window.scrollTo(0, 0);
   return (
-    <div className="bg-dark text-whitepb-32">
-      <div className="flex justify-center bg-blue ">
-        <img src="../picto_burger.png" class="md:hidden w-56" alt="" />
+    <div className="bg-dark text-white">
+      <div className="flex justify-center bg-Bleuclair ">
+        <img src="../PICTO-COUSCOUS.png" class="md:hidden w-56 pt-5" alt="" />
       </div>
-      <div className="flex justify-center bg-blue ">
+      <div className="flex justify-center bg-Bleuclair h-[500px]">
         <div className="text-dark grid justify-center place-items-center w-full">
           <img
-            src="../titrage_Nos_burger.png"
+            src="../COUSCOUS.png"
             alt="burger_titre"
-            className="md:w-2/3 w-3/4"
+            className="md:w-2/4 w-full"
           />
-          <div className="flex">
+          <div className="flex text-lg">
             <table className="table-fixed mt-5 mb-10">
               <thead>
                 <tr>
@@ -56,7 +56,7 @@ const Cartes = () => {
             </table>
           </div>
           <div className="absolute w-64 right-[10vw] top-[260px] lg:block hidden">
-            <img src="../picto_burger.png" alt="burger" />
+            <img src="../PICTO-COUSCOUS.png" alt="burger" />
           </div>
         </div>
       </div>
@@ -73,7 +73,7 @@ const Cartes = () => {
         </Link>
         <Link to="/cartes/vin" className="grid">
           <button className="text-5xl font-bold border-2 p-5 m-2 hover:bg-wheat hover:text-dark">
-            Vin
+            Vins
           </button>
         </Link>
         <Link to="/cartes/Tartines" className="grid">

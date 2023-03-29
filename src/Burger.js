@@ -4,56 +4,56 @@ import { Link } from "react-router-dom";
 const Cartes = () => {
   window.scrollTo(0, 0);
   return (
-    <div className="bg-dark text-whitepb-32">
+    <div className="bg-dark text-white">
       <div className="flex justify-center bg-blue ">
-        <img src="../picto_burger.png" className="md:hidden w-56" alt="" />
+        <img src="../PICTO-BURGER.png" className="md:hidden w-56 pt-5" alt="" />
       </div>
-      <div className="flex justify-center bg-blue ">
+      <div className="flex justify-center bg-blue h-[500px]">
         <div className="text-dark grid justify-center place-items-center w-full">
           <img
-            src="../titrage_Nos_burger.png"
+            src="../BURGERS.png"
             alt="burger_titre"
-            className="md:w-2/3 w-3/4"
+            className="md:w-2/4 w-full"
           />
-          <div className="absolute w-[14vw] md:right-[17vw] right-[14vw] md:top-[160px] top-[330px]">
+          {/* <div className="absolute w-[14vw] md:right-[17vw] right-[14vw] md:top-[160px] top-[330px]">
             <img src="../roue_cranter.png" alt="roue" />
             <p className="absolute top-[5vw] text-[2vw] font-bold left-[4vw]">
               13,90$
             </p>
-          </div>
+          </div> */}
           <div className="text-center">
-            <h2 className="font-bold text-3xl">LA BIQUETTE</h2>
-            <p className="font-semibold mb-5">
+            <h2 className="font-bold text-lg">LA BIQUETTE</h2>
+            <p className="font-semibold mb-2">
               Boeuf, chèvre frais, tomate, oignons, sauce moutarde au miel
             </p>
           </div>
           <div className="text-center">
-            <h2 className="font-bold text-3xl">LA POULETTE</h2>
-            <p className="font-semibold mb-5">
+            <h2 className="font-bold text-lg">LA POULETTE</h2>
+            <p className="font-semibold mb-2">
               Dinde panée, cheddar, tomate, roquette
             </p>
           </div>
           <div className="text-center">
-            <h2 className="font-bold text-3xl">LE GRAND MAMIE</h2>
-            <p className="font-semibold mb-5">
+            <h2 className="font-bold text-lg">LE GRAND MAMIE</h2>
+            <p className="font-semibold mb-2">
               Boeuf, reblochon, lardon, oignons rissolés, sauce montagnarde
             </p>
           </div>
           <div className="text-center">
-            <h2 className="font-bold text-3xl">LE VEGIE</h2>
-            <p className="font-semibold mb-5">
+            <h2 className="font-bold text-lg">LE VEGIE</h2>
+            <p className="font-semibold mb-2">
               Galettes de légumes, couscous, tomate, oignons rouges
             </p>
           </div>
           <div className="text-center">
-            <h2 className="font-bold text-3xl">LE BURGER DE L'IMPOND</h2>
-            <p className="font-semibold mb-5">
+            <h2 className="font-bold text-lg">LE BURGER DE L'IMPOND</h2>
+            <p className="font-semibold mb-2">
               Galerte de pomme de terre, viande haché boeuf, confiture
               d’oignons, cheddar
             </p>
           </div>
-          <div className="absolute w-64 right-[10vw] top-[360px] lg:block hidden">
-            <img src="../picto_burger.png" alt="burger" />
+          <div className="absolute w-64 right-[10vw] top-[260px] lg:block hidden">
+            <img src="../PICTO-BURGER.png" alt="burger" />
           </div>
         </div>
       </div>
@@ -70,7 +70,7 @@ const Cartes = () => {
         </Link>
         <Link to="/cartes/vin" className="grid">
           <button className="text-5xl font-bold border-2 p-5 m-2 hover:bg-wheat hover:text-dark">
-            Vin
+            Vins
           </button>
         </Link>
         <Link to="/cartes/Tartines" className="grid">

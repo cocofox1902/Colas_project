@@ -31,7 +31,7 @@ const Navbar = () => {
             </button>
           </div>
         </button>
-        <div className="hidden lg:flex ml-auto mr-5" id="navbar-default">
+        <div className="hidden lg:flex ml-auto mr-5 items-center mt-3" id="navbar-default">
           <ul className="flex flex-col p-4 mt-4 rounded-lg md:flex-row md:space-x-8 md:mt-0 lg:text-sm text-xs">
             <li>
               <Link
@@ -53,7 +53,7 @@ const Navbar = () => {
             </li>
             <li>
               <Link
-                to="/ambaince"
+                to="/ambiance"
                 className="font-display max-w-sm font-bold leading-tight"
               >
                 <span className="link link-underline link-underline-black text-white">

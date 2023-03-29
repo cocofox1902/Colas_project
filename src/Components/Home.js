@@ -1,5 +1,5 @@
 import React from 'react';
-import { faCanadianMapleLeaf, faInstagram, faYoutube } from '@fortawesome/free-brands-svg-icons'
+import { faCanadianMapleLeaf, faFacebook, faYoutube } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Link } from 'react-router-dom';
 
@@ -15,8 +15,8 @@ const Home = () => {
                             </Link>
                         </li>
                         <li className='flex justify-center py-2'>
-                            <a href='https://www.instagram.com/'>
-                                <FontAwesomeIcon icon={faInstagram} className="text-3xl mr-5" />
+                            <a href='https://www.facebook.com/'>
+                                <FontAwesomeIcon icon={faFacebook} className="text-3xl mr-5" />
                             </a>
                         </li>
                         <li className='flex justify-center py-2'>
@@ -26,10 +26,10 @@ const Home = () => {
                         </li>
                     </ul>
                 </div>
-                <div className='pt-44 justify-center w-full grid mr-14 lg:ml-0 ml-20'>
+                <div className='pt-24 justify-center w-full grid mr-14 lg:ml-0 ml-20'>
                     <img src="LOGO_L'IMPOND.png" alt="L'impond'erable" className='justify-self-center' />
-                    <p className='text-xl font-bold text-wheat justify-self-center'>BAR À VIN IÈME</p>
-                    <img src="TYPO_CAFÉ_BAR RESTO.png" alt="TYPO_CAFÉ_BAR RESTO" className='pt-20'/>
+                    <p className='md:text-3xl font-bold text-wheat justify-self-center tracking-widest'>BAR À VIN IÈME</p>
+                    <img src="TYPO_CAFÉ_BAR RESTO.png" alt="TYPO_CAFÉ_BAR RESTO" className='md:pt-20 pt-5 w-[781px] place-self-center'/>
                 </div>
             </div>
         </div>

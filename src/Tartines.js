@@ -4,27 +4,27 @@ import { Link } from "react-router-dom";
 const Cartes = () => {
   window.scrollTo(0, 0);
   return (
-    <div className="bg-dark text-whitepb-32">
-      <div className="flex justify-center bg-blue ">
-        <img src="../picto_burger.png" className="md:hidden w-56" alt="" />
+    <div className="bg-dark text-white">
+      <div className="flex justify-center bg-rouge ">
+        <img src="../PICTO-TARTINE.png" className="md:hidden w-56 pt-5" alt="" />
       </div>
-      <div className="flex justify-center bg-blue ">
+      <div className="flex justify-center bg-rouge h-[500px]">
         <div className="text-dark grid justify-center place-items-center w-full">
           <img
-            src="../titrage_Nos_burger.png"
+            src="../TARTINES.png"
             alt="burger_titre"
-            className="md:w-2/3 w-3/4"
+            className="md:w-2/4 w-full"
           />
-          <div className="flex">
-            <table className="table-fixed mt-5 mb-10">
+          <div className="flex text-xl">
+            <table className="table-fixed mb-10">
               <thead>
                 <tr>
-                  <th className="w-48"></th>
+                  <th className="w-64"></th>
                   <th className="w-22"></th>
                 </tr>
               </thead>
               <tbody className="font-bold">
-                <tr className="float-right pb-5">
+                <tr className="float-right pb-10">
                   SERVIES AVEC FRITES
                 </tr>
                 <tr>
@@ -47,7 +47,7 @@ const Cartes = () => {
             </table>
           </div>
           <div className="absolute w-64 right-[10vw] top-[260px] lg:block hidden">
-            <img src="../picto_burger.png" alt="burger" />
+            <img src="../PICTO-TARTINE.png" alt="burger" />
           </div>
         </div>
       </div>
@@ -64,7 +64,7 @@ const Cartes = () => {
         </Link>
         <Link to="/cartes/vin" className="grid">
           <button className="text-5xl font-bold border-2 p-5 m-2 hover:bg-wheat hover:text-dark">
-            Vin
+            Vins
           </button>
         </Link>
         <Link to="/cartes/Tartines" className="grid">

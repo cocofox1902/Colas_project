@@ -14,7 +14,7 @@ const ShowBurger = () => {
         <img src="PHOTO-BURGER.jpg" alt="burger1" className="w-2/3 ml-[30vw]" />
       </div>
       <Link
-        to="/cartes"
+        to="/cartes/burgers"
       >
         <img
           data-scroll-speed="3"
