@@ -10,6 +10,7 @@ import Vin from "./Vin";
 import Tartines from "./Tartines";
 import Couscous from "./Couscous";
 import Footer from "./Components/Footer";
+import Blog from "./Blog";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/" element={<Homes />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/ambiance" element={<Ambiance />} />
+          <Route path="/blog" element={<Blog />} />
           <Route path="/cartes" element={<Cartes />} />
           <Route path="/cartes/burgers" element={<Burger />} />
           <Route path="/cartes/tapas" element={<Tapas />} />

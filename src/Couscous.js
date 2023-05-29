@@ -19,13 +19,13 @@ const Cartes = () => {
             <table className="table-fixed mt-5 mb-10">
               <thead>
                 <tr>
-                  <th className="w-80"></th>
+                  <th className="w-72"></th>
                   <th className="w-22"></th>
                 </tr>
               </thead>
               <tbody className="font-bold">
                 <tr>
-                  <td>COUSCOUS BOUEF</td>
+                  <td>COUSCOUS BOEUF</td>
                   <td>13.50€</td>
                 </tr>
                 <tr>
